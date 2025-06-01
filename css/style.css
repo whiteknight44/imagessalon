@@ -9,9 +9,9 @@
 
 
 body {
-    color: #ffffff;
-background: linear-gradient(to right, #000000, #1a1a1a, #333333, #4d4d4d);
-font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    background: #ffffff;
+    font-family: 'open sans', sans-serif;
 }
 
 h1,
@@ -260,7 +260,7 @@ a:focus {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0.6);
     z-index: 1;
 }
 
@@ -290,7 +290,7 @@ a:focus {
 }
 
 .carousel .carousel-text h1 span {
-    color: #000000;
+    color: #f90553;
 }
 
 .carousel .carousel-text p {
@@ -302,8 +302,8 @@ a:focus {
 
 .carousel .carousel-btn .btn:last-child {
     margin-left: 10px;
-    background: #000000;
-    border-color: #000000;
+    background: #f90553;
+    border-color: #f90553;
 }
 
 .carousel .carousel-btn .btn:last-child:hover {
@@ -460,8 +460,7 @@ a:focus {
 @media (max-width: 767.98px) {
     .section-header h2 {
         font-size: 35px;
-        font-weight: 400;
-        font-family: 'Cinzel', serif;
+        font-weight: 600;
     }
 }
 
@@ -614,7 +613,7 @@ a:focus {
 }
 
 .food .food-item h2 {
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 700;
 }
 
@@ -627,17 +626,17 @@ a:focus {
     position: absolute;
     content: "";
     width: 50px;
-    height: 0px;
+    height: 1px;
     bottom: 0;
     left: calc(50% - 25px);
-    background: #fbaf32;
+    background: #ffffff;
     transition: .3s;
 }
 
 .food .food-item a:hover::after {
     width: 100%;
     left: 0;
-    background: #719a0a;
+    background: #ffffff;
 }
 
 
@@ -890,7 +889,7 @@ a:focus {
 
 .menu .menu-tab .nav.nav-pills .nav-link {
     color: #ffffff;
-    background:  hsl(50, 100%, 44%);
+    background:  #f90553;
     border-radius: 5px;
     margin: 0 5px;
 }
@@ -898,7 +897,7 @@ a:focus {
 .menu .menu-tab .nav.nav-pills .nav-link:hover,
 .menu .menu-tab .nav.nav-pills .nav-link.active {
     color: #ffffff;
-    background:  #e1cb00fb;
+    background:  #f90553;
 }
 
 .menu .menu-tab .tab-content {
@@ -934,8 +933,8 @@ a:focus {
 .menu .menu-text h3 {
     position: relative;
     display: block;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .menu .menu-text h3::after {
@@ -953,7 +952,7 @@ a:focus {
     display: inline-block;
     float: left;
     padding-right: 5px;
-    background: #ffbebe;
+    background: #ffffff;
 }
 
 .menu .menu-text h3 strong {
